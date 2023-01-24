@@ -7,6 +7,7 @@
     <script type="text/javascript" src="../../Scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
     <script type="text/javascript" src="../../Scripts/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
    
+    <%--<div id="Pbody_box_inventory">--%>
     <div id="Pbody_box_inventory">
         <Ajax:ScriptManager ID="ScriptManager1" runat="server">
         </Ajax:ScriptManager>
