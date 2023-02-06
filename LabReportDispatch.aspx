@@ -56,7 +56,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <label class="pull-left">From Date</label>
-                            <b class="pull-right">:</b>
+                            <b class="pull-right">c</b>
                         </div>
                         <div class="col-md-5">
                             <asp:TextBox ID="FrmDate" runat="server" ClientIDMode="Static" data-title="Select From Date"></asp:TextBox>
