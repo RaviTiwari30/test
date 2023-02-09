@@ -27,7 +27,8 @@ public partial class Design_Lab_LabReportDispatch : System.Web.UI.Page
     [WebMethod]
     public static string BindInvestigation(string Department)
     {
-        var sb = new StringBuilder();
+        //var sb = new StringBuilder();
+		var sb = new StringBuilder();
         sb.Append(" select inv.Name ,inv.Investigation_id from f_itemmaster im   ");
         sb.Append(" INNER JOIN `f_itemmaster_centerwise` itc ON itc.`ItemID`=im.`ItemID` ");
         sb.Append(" inner join f_subcategorymaster sc on sc.SubCategoryID=im.SubCategoryID  ");
